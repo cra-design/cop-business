@@ -280,7 +280,7 @@ Help with using your CRA account</h1-->
     <div data-wb-urlmapping="{
 	&quot;type=myacct&quot;: [{&quot;action&quot;: &quot;selectInput&quot;, &quot;source&quot;: &quot;#acct-options&quot;, &quot;value&quot;: &quot;fltr_mya&quot;}, { &quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.url-fltr:not([data-wb-tags~=\&quot;fltr_mya\&quot;])&quot;, &quot;class&quot;: &quot;wb-tgfltr-out&quot; }], &quot;type=mybusacct&quot;: [{&quot;action&quot;: &quot;selectInput&quot;, &quot;source&quot;: &quot;#acct-options&quot;, &quot;value&quot;: &quot;fltr_myba&quot;}, { &quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.url-fltr:not([data-wb-tags~=\&quot;fltr_myba\&quot;])&quot;, &quot;class&quot;: &quot;wb-tgfltr-out&quot; }], &quot;type=rac&quot;: [{&quot;action&quot;: &quot;selectInput&quot;, &quot;source&quot;: &quot;#acct-options&quot;, &quot;value&quot;: &quot;fltr_rac&quot;}, { &quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.url-fltr:not([data-wb-tags~=\&quot;fltr_rac\&quot;])&quot;, &quot;class&quot;: &quot;wb-tgfltr-out&quot; }]
 }"></div>
-<p>Find all the information you need after you have registered your business with the CRA like managing your account, updating your business profile, closing or re-opening your business and other business information.</p>
+<p>Find all the information you need after you have registered your business with the CRA like manage your account, update your business profile, closing or re-opening your business and growing your business.</p>
 <section id="filteredFAQ" class="wb-tagfilter provisional wb-filter" data-wb-filter="{
 		&quot;selector&quot;: &quot;.tag-fltr&quot;,
 		&quot;section&quot;: &quot;.wb-tagfilter-items&quot;,
@@ -300,9 +300,13 @@ Help with using your CRA account</h1-->
                             <input type="radio" name="accounts" id="AllRadio" value="" class="wb-tagfilter-ctrl" checked>
                             <label for="AllRadio">All</label>
                         </div>
+						<div class="radio">
+                            <input type="radio" name="accounts" id="RacRadio" value="fltr_rac" class="wb-tagfilter-ctrl">
+                            <label for="RacRadio">Status of your BN</label>
+                        </div>
                         <div class="radio ">
                             <input type="radio" name="accounts" id="MyaRadio" value="fltr_mya" class="wb-tagfilter-ctrl">
-                            <label for="MyaRadio">Update your business information</label>
+                            <label for="MyaRadio">Update your profile information</label>
                         </div>
                         <div class="radio">
                             <input type="radio" name="accounts" id="MybaRadio" value="fltr_myba" class="wb-tagfilter-ctrl">
@@ -312,6 +316,12 @@ Help with using your CRA account</h1-->
                             <input type="radio" name="accounts" id="RacRadio" value="fltr_rac" class="wb-tagfilter-ctrl">
                             <label for="RacRadio">Growing your business</label>
                         </div>
+						 <div class="radio">
+                            <input type="radio" name="accounts" id="MybaRadio" value="fltr_myba" class="wb-tagfilter-ctrl">
+                            <label for="MybaRadio">Changes to business operations</label>
+                        </div>
+                        
+
                     </fieldset>
                     <input type="submit" value="Submit" class="wb-inv" aria-disabled="true">
                 </form>
