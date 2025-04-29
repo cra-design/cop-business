@@ -74,7 +74,7 @@
                </ul>
             </nav>
             <h1 property="name" id="wb-cont">Get ready to register</h1>
-            
+            <p>Gather your information ahead of time because your session will time out.</p>
           <h2 class="h3">On this page</h2>
             <ul>
                <li><a href="#h-1">Info you need to request a BN</a></li>
@@ -84,54 +84,68 @@
             </ul>
         <h2 id="h-1">Info you need to request a BN</h2>
             <p>Intro sentence.</p>
-    <h3>Personal information</h3>
-    <p>If you are a business owner or third-party requester, you must provide all of the following:</p>
+		  <div class="wb-tabs mrgn-tp-lg">
+    <div class="tabpanels">
+        <details id="details-panel1" class="provisional wb-details-close">
+            <summary class="py-4"><span class="fas fa-desktop mrgn-rght-sm"></span>Canadian residents</summary>
+    <h3 class="h4">Personal information</h3>
+    <p>You must provide all of the following:</p>
     <ul>
-      <li>Last name</li>
-      <li>Social insurance number (SIN)</li>
-      <li>Date of birth</li>
-      <li>Personal postal code (where you live)</li>
+      <li>Owner's name and phone number</li>
     </ul>
     <p>If you are a representative, you will need to provide your RepID. </p>
     <p>For details: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client.html">Represent a Client</a></p>
-    <h3>Basic business information</h3>
+		<p>RC1 only: If you are a third-party requester, you must also provide:</p>
+		<ul>
+			<li>Your name, title, and telephone number</li>
+		</ul>
+    <h3 class="h4">Basic business information</h3>
     <p>You must provide all of the following:</p>
     <ul>
       <li>Business name</li>
-      <li>Business number (if this business already has one)</li>
+      
       <li>Type of business or organization (for example: sole proprietor, partnership, corporation, domestic worker, trust)</li>
+	    <li>Description of major business activity</li>
       <li>Name and SIN of owners as required</li>
       <li>Physical address</li>
       <li>Mailing address (if different from the physical address)</li>
-      <li>Description of major business activity</li>
+      
+    </ul></details>
+	    <details id="details-panel2" class="provisional wb-details-close">
+            <summary class="py-4"><span class="fas fa-desktop mrgn-rght-sm"></span>Non-residents</summary>
+<h3 class="h4">Personal information</h3>
+    <p>You must provide all of the following:</p>
+    <ul>
+      <li>Owner's name, title, and phone number</li>
+	    <li>Name and address of the primary contact</li>
     </ul>
+   <!-- <p>If you are a representative, you will need to provide your RepID. </p>
+    <p>For details: <a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client.html">Represent a Client</a></p>-->
+		<p>If you are a third-party requester, you must also provide:</p>
+		<ul>
+			<li>Your name, title, and telephone number</li>
+		</ul>
+    <h3 class="h4">Basic business information</h3>
+    <p>You must provide all of the following:</p>
+    <ul>
+      <li>Business name</li>
+      
+      <li>Type of business or organization (for example: sole proprietor, partnership, corporation, domestic worker, trust)</li>
+	    <li>Description of major business activity in Canada</li>
+      <li>Main products and services provided by the business, with their estimated percentage of revenue</li>
+      <li>Physical address</li>
+      <li>Mailing address (if different from the physical address)</li>
+      
+    </ul></details></div></div>
+
+
+		    
             <h2 id="h-2">Info you need to register for program accounts</h2>
            
 <p>Select the program account you want to add to see what additional information you will need:</p>
-
-
+	 <h3>GST/HST program account</h3>
 <details>
-        <summary>Corporation income tax program account</summary>
-	
-<p>You must have all of the following on hand:</p>
-<ul>
-<li>corporation name</li>
-<li>certificate number</li>
-<li>date of incorporation</li>
-<li>jurisdiction</li>
-</ul>
-<p>You will also need all of the following if it differs from the basic business information above:</p>
-<ul>
-<li>mailing address</li>
-<li>physical address</li>
-</ul>
-<p>For more information, go to <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/corporation-income-tax-program-account.html">Corporation income tax program account</a>.</p>
-      </details>
-
-
-
-<details>
-        <summary>GST/HST program account</summary>
+        <summary>GST/HST - Canadian residents</summary>
 	
 <p>You must have all of the following on hand:</p>
 <ul>
@@ -147,12 +161,14 @@
 </ul>
 <p>For more information, go to <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/account-register.html">Register for a GST/HST account</a>.</p>
       </details>
-
-
-
-
 <details>
-        <summary>Payroll deductions program account</summary>
+        <summary>GST/HST - Non-residents</summary>
+</details>
+
+
+<h3>Payroll deductions program account</h3>
+<details>
+        <summary>Payroll - Canadian residents</summary>
 	
 <p>You must have all of the following on hand:</p>
 <ul>
@@ -174,11 +190,56 @@
 </ul>
 <p>For more information, go to <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/open-manage-payroll-account.html">Open or manage a payroll account</a>.</p>
       </details>
-
-
-
 <details>
-        <summary>Registered charity program account</summary>
+        <summary>Payroll - Non-residents</summary>
+</details>
+<h3>Corporation income tax program account</h3>
+<details>
+        <summary>Corporation income tax - Canadian residents</summary>
+	
+<p>You must have all of the following on hand:</p>
+<ul>
+<li>Corporation name</li>
+<li>Operation type</li>
+<li>Date of incorporation</li>
+<li>Jurisdiction</li>
+
+<li>Mailing address</li>
+<li>Physical address</li>
+</ul>
+<p>For more information, go to <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/corporation-income-tax-program-account.html">Corporation income tax program account</a>.</p>
+      
+<h4>Registraton methods</h4>
+<p>You can register for this program account in the following ways:</p>
+		 <ul>
+			 <li>Online through Business Registration Online (BRO)</li>
+			 <li>By mail with <a href="">Form RC1, Request for a Business Number and Certain Program Accounts</a></li>
+			 <li>By phone</li>
+		 </ul>
+</details>
+		 <details>
+        <summary>Corporation income tax - Non-residents</summary>
+	
+<p>You must have all of the following on hand:</p>
+<ul>
+<li>Type of business</li>
+<li>Date and country of incorporation or formation</li>
+<li>Certificate number</li>
+<li>Canadian business number (if the business already has one)</li>
+	<li>Will you be filing certain Special Elections or Special Returns?</li></ul>
+<h4>Registraton methods</h4>
+<p>You can register for this program account in the following ways:</p>
+		 <ul>
+			 <li>Online webform</li>
+			 <li>By mail with <a href="">Form RC1, Request for a Business Number and Certain Program Accounts</a></li>
+			 
+		 </ul>
+</details>
+	
+
+		 <h3>Registered charity program account</h3>
+<details>
+        <summary>Registered charity - Canadian residents</summary>
 	
 <p>You must have all of the following on hand:</p>
 <ul>
@@ -199,9 +260,9 @@
       </details>
 
 
-
+<h3>Information returns program account</h3>
 <details>
-        <summary>Information returns program account</summary>
+        <summary>Information returns - Canadian residents</summary>
 	
 <p>You must have all of the following on hand:</p>
 <ul>
@@ -222,7 +283,9 @@
 <p>For more information, go to <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/financial-slips-summaries/information-returns-program-account.html">Information returns program account</a>.</p>
       </details>
 
-
+<details>
+        <summary>Information returns - Non-residents</summary>
+</details>
 
           <!-- <h2 id="h-3">Heading C</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo elementum est, ac ultrices urna convallis vitae.</p>
