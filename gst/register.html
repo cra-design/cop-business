@@ -355,17 +355,17 @@
 <summary>Total annual revenue</summary>
 <p>Your total annual revenue include revenues from:</p>
   <ul class="fa-ul">
-   <li><span class="fas fa-check text-success fa-li"></span>Taxable sales, leases, and other supplies (including zero-rated supplies [?])</li>
-    <li><span class="fas fa-check text-success fa-li"></span>Taxable supplies of all your associates [?]</li>
+   <li><span class="fas fa-check text-success fa-li"></span><a class="wb-lbx" role="button" aria-controls="taxable" href="#taxable">Taxable <span class="mrgn-lft-xs far fa-question-circle"></span></a> sales, leases, and other supplies (including <a class="wb-lbx" role="button" aria-controls="zero-rated" href="#zero-rated">zero-rated supplies<span class="mrgn-lft-xs far fa-question-circle"></span></a>)</li>
+    <li><span class="fas fa-check text-success fa-li"></span>Taxable supplies of all your <a class="wb-lbx" role="button" aria-controls="associates" href="#associates">associates <span class="mrgn-lft-xs far fa-question-circle"></span></a></li>
   
   </ul>
  
 <p>Do not include revenues from:</p>	
 <ul class="fa-ul">
-    <li><span class="fas fa-times text-danger fa-li"></span>Exempt supplies [?]</li>
+    <li><span class="fas fa-times text-danger fa-li"></span><a class="wb-lbx" role="button" aria-controls="exemptsupplies" href="#exemptsupplies">Exempt supplies <span class="mrgn-lft-xs far fa-question-circle"></span></a></li>
 	  <li><span class="fas fa-times text-danger fa-li"></span>Financial services</li>
 <li><span class="fas fa-times text-danger fa-li"></span>Sales of capital property</li>
-	  <li><span class="fas fa-times text-danger fa-li"></span>Goodwill [?] from the sale of the business</li>
+	  <li><span class="fas fa-times text-danger fa-li"></span><a class="wb-lbx" role="button" aria-controls="goodwill" href="#goodwill">Goodwill <span class="mrgn-lft-xs far fa-question-circle"></span></a> from the sale of the business</li>
   </ul>	
 	<p><strong>For new businesses</strong></p>	
 	
@@ -396,7 +396,8 @@
 <ul>
   <li>Business name</li>
   <li>Business number (BN), if you have one</li>
-  <li>Type of business [?]</li>
+  <li>Type of business (for example: <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/small-businesses-self-employed-income/setting-your-business/sole-proprietorship.html">sole proprietor</a>, <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/small-businesses-self-employed-income/setting-your-business/partnership.html">partnership</a>, <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/small-businesses-self-employed-income/setting-your-business/corporation.html">corporation</a>, domestic worker, trust)
+	     </li>
   <li>Name and SIN of all owners</li>
   <li>Physical and mailing addresses</li>
   <li>Description of major business activity</li>
@@ -544,19 +545,87 @@ Refer to: <a href="https://cra-design.github.io/cop-business/register-business/g
 
 <!-- Definitions -->
 <div class="mwsgeneric-base-html parbase section">
+
+
+
 	<section id="smallsupplier" class="mfp-hide modal-dialog modal-content overlay-def">
-	<header class="modal-header"> 
-	<h2 class="modal-title">Small supplier</h2>
-                  </header>
-                  <div class="modal-body">
+    <header class="modal-header"> 
+       <h2 class="modal-title">Small supplier</h2>
+    </header>
+    <div class="modal-body">
 			  
-   <p><strong>Small supplier</strong> means a person whose revenue (along with the revenue of all persons associated with that person) from worldwide <a href="/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#taxablesupply">taxable supplies</a> was equal to or less than $30,000 ($50,000 for <a href="/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#service">public service bodies</a>) in a single <a href="/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#quarter">calendar quarter</a> and over the last four consecutive calendar quarters. The calculation excludes consideration attributable to the sale of goodwill of a business, supplies of financial services, and supplies by way of sale of capital property.</p>
-<p><a href="/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#charity">Charities</a> and public institutions are also considered small suppliers if they meet the gross revenue test of $250,000 or less.</p>
-<p>For more information, see <a href="/en/revenue-agency/services/forms-publications/publications/2-2/small-suppliers.html">GST/HST Memorandum 2-2, Small suppliers</a>.</p>
+   <p><strong>Small supplier</strong> means a person whose revenue (along with the revenue of all persons associated with that person) from worldwide <a href="/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#taxablesupply">taxable supplies</a> was equal to or less than $30,000 ($50,000 for <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#service">public service bodies</a>) in a single <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#quarter">calendar quarter</a> and over the last four consecutive calendar quarters. The calculation excludes consideration attributable to the sale of goodwill of a business, supplies of financial services, and supplies by way of sale of capital property.</p>
+<p><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#charity">Charities</a> and public institutions are also considered small suppliers if they meet the gross revenue test of $250,000 or less.</p>
+<p>For more information, see <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/2-2/small-suppliers.html">GST/HST Memorandum 2-2, Small suppliers</a>.</p>
 
 	</div>
-	</section>
-	
+    </section>
+
+<section id="taxable" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header"> 
+       <h2 class="modal-title">Taxable</h2>
+    </header>
+    <div class="modal-body">
+			  
+   <p><strong>Taxable supply</strong>&nbsp;means a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#supply">supply</a> that is made in the course of a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#commercial">commercial activity</a> and is subject to the&nbsp;<a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#gst">GST/HST</a> (including <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#zero">zero-rated supplies</a>).</p>
+
+
+	</div>
+    </section>
+
+<section id="zero-rated" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header"> 
+       <h2 class="modal-title">Zero-rated</h2>
+    </header>
+    <div class="modal-body">
+			  
+   <p><strong>Zero-rated supplies</strong> are&nbsp;<a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#supply">supplies</a> of property and services that are <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#taxablesupply">taxable</a> at the rate of 0%. This means there is no <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#gst">GST/HST</a> charged on these supplies, but GST/HST <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#registrant">registrants</a>&nbsp;may be eligible to claim <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#itc">ITCs</a> for the GST/HST paid or payable on property and services acquired&nbsp;to provide these supplies.</p>
+
+
+	</div>
+    </section>
+
+<section id="associates" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header"> 
+       <h2 class="modal-title">Associates</h2>
+    </header>
+    <div class="modal-body">
+			  
+   <p><strong>Associated person</strong>, for&nbsp;<a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#gst">GST/HST</a>&nbsp;purposes, means a person that is generally associated with another person where one controls the other. Associated persons (referred&nbsp;to generally as &quot;associates&quot;) may include:</p>
+<ul>
+<li>two or more corporations</li>
+<li>an individual and a corporation</li>
+<li>a person and a partnership or trust</li>
+<li>two persons, if they are associated with the same third person</li>
+</ul>
+
+
+	</div>
+    </section>
+
+<section id="exemptsupplies" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header"> 
+       <h2 class="modal-title">Exempt supplies</h2>
+    </header>
+    <div class="modal-body">
+			  
+   <p><strong>Exempt supplies</strong>&nbsp;means supplies of property and services that are not subject to the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#gst">GST/HST</a>. GST/HST registrants generally cannot claim <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#itc">input tax credits</a> to recover the GST/HST paid or payable on property and services acquired to make exempt supplies.</p>
+
+
+	</div>
+    </section>
+
+<section id="goodwill" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header"> 
+       <h2 class="modal-title">Goodwill</h2>
+    </header>
+    <div class="modal-body">
+			  
+   <p><strong>Goodwill</strong>, in accounting terms, means the excess of the purchase price of a business over the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#fmv">fair market value</a> of the net assets of the business.</p>
+
+	</div>
+    </section>
+
 </div>
 			</div>
         
